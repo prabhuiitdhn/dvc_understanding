@@ -1,0 +1,6 @@
+stages:
+  prepare:
+    cmd: prepare.split -d .\src\prepare.py - d ..\data\data.xml -o ..\data\prepared
+      python .\src\prepare.py ..\data\data.xml
+    params:
+    - prepare.seed
