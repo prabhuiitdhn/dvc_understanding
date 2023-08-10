@@ -105,7 +105,9 @@ to acess the dvc api
 
 Important links:
 Basic introduction: https://www.youtube.com/watch?v=mHQPzVse2oA&t=20s&ab_channel=KrishNaik
+
 Official page: https://dvc.org/doc/start
+
 DVC playlist: https://www.youtube.com/playlist?list=PL7WG7YrwYcnDb0qdPl9-KEStsL-3oaEjg
 
 
