@@ -42,6 +42,19 @@ to acess the dvc api
   So, basically in the data pipelines, we can add the stages that "what should run first with thier depencies, data folder and information for running that particular pipleline."
   We can create data preparation, data featuraziation and training with all the depencies.
 
+   staging command for the dvc.
+
+    dvc stage add -n evaluate
+              -d output/data.pkl,output/model.h5,src/evaluate.py
+              --metrics output/metrics.json
+              --plots output/test/predictions.json,output/test/samples_of_mispredicted_images/ python src/evaluate.py
+
+    -n : this is for name of the stage
+    -d : this is for dependencies requires fir running the python file.
+    --metrics: this is for metrics without cache.
+    -M : this is for metrics with cache
+    --plots: this is for plotting in the stages
+        
     The stages will look like this
       stages:
         prepare:
