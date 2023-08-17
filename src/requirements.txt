@@ -1,4 +1,4 @@
-dvclive>=2.0
+dvclive
 pandas
 pyaml
 scikit-learn
